@@ -1,3 +1,13 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap-custom";
 @import "bootstrap";
+
+// Better spacing for navs
+.nav-item {
+    margin-right: 0.5rem;
+}
+
+// Navbar dark with bold fonts
+.navbar-dark {
+    font-weight: 400;
+}

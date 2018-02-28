@@ -1,5 +1,5 @@
 //$enable-rounded: false;
-//$font-family-sans-serif:      -apple-system, "Times new roman";
+//$font-family-sans-serif: -apple-system, "Times new roman";
 
 // Remove hue from grays
 
@@ -16,11 +16,33 @@ $gray-900: #343a40;
 // Company colors
 $lawrence-green: #069347;
 $lawrence-purple: #30236e;
-
 $plesner-blue: #66ab99;
+
+// Blue colors
+
+$darker-blue: #293846;
+$dark-blue: #2f4050;
+$light-blue: #a7b1c2;
+$lighter-blue: #dfe4ed;
 
 // Basic colors
 $white: #fff;
+
+// Custom theme colors for fine grained grays
+$theme-colors: (
+  "primary": $plesner-blue,
+  "lightest": $gray-100,
+  "lighter": $gray-200,
+  "light": $gray-300,
+  "dark": $gray-400,
+  "darker": $gray-500,
+  "darkest": $gray-600,
+  "darker-blue": $darker-blue
+);
+
+// Body
+
+$body-bg: #f3f3f4;
 
 // Remove color from links
 $link-color: $gray-900;
@@ -37,17 +59,16 @@ $font-weight-bold: 400;
 $nav-tabs-link-active-color: $gray-900;
 
 // Custom underlined nav
-$nav-tabs-link-active-bg: $white;
-$nav-tabs-link-active-border-color: $white $white $plesner-blue;
-$nav-tabs-link-hover-border-color: $white $white $plesner-blue;
+$nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: $body-bg $body-bg $plesner-blue;
+$nav-tabs-link-hover-border-color: $body-bg $body-bg $plesner-blue;
 
-// Custom theme colors for fine grained grays
-$theme-colors: (
-  "primary": $plesner-blue,
-  "lightest": $gray-100,
-  "lighter": $gray-200,
-  "light": $gray-300,
-  "dark": $gray-400,
-  "darker": $gray-500,
-  "darkest": $gray-600
-);
+// Custom blue navbar
+$navbar-dark-brand-color: $lighter-blue;
+$navbar-dark-color: $light-blue;
+$navbar-dark-active-color: $white;
+$navbar-dark-hover-color: $white;
+
+// Jumbotron
+
+$jumbotron-bg: $white;
