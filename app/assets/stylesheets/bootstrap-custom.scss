@@ -2,7 +2,6 @@
 //$font-family-sans-serif: -apple-system, "Times new roman";
 
 // Remove hue from grays
-
 $gray-100: #f2f2f2;
 $gray-200: #e6e6e6;
 $gray-300: #d9d9d9;
@@ -19,8 +18,6 @@ $lawrence-purple: #30236e;
 $plesner-blue: #66ab99;
 
 // Blue colors
-
-$darker-blue: #293846;
 $dark-blue: #2f4050;
 $light-blue: #a7b1c2;
 $lighter-blue: #dfe4ed;
@@ -37,11 +34,10 @@ $theme-colors: (
   "dark": $gray-400,
   "darker": $gray-500,
   "darkest": $gray-600,
-  "darker-blue": $darker-blue
+  "dark-blue": $dark-blue
 );
 
 // Body
-
 $body-bg: #f3f3f4;
 
 // Remove color from links
@@ -70,5 +66,5 @@ $navbar-dark-active-color: $white;
 $navbar-dark-hover-color: $white;
 
 // Jumbotron
-
+$jumbotron-padding: 4rem;
 $jumbotron-bg: $white;
